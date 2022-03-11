@@ -3733,7 +3733,7 @@
     (property "Reference" "F?" (id 0) (at 267.97 85.09 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "PTC ?A" (id 1) (at 262.89 85.09 90)
+    (property "Value" "PTC 1A" (id 1) (at 262.89 85.09 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "" (id 2) (at 264.16 80.01 0)
@@ -4770,7 +4770,7 @@
     (property "Reference" "F?" (id 0) (at 77.47 137.16 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "PTC ?A" (id 1) (at 77.47 142.24 90)
+    (property "Value" "PTC 1A" (id 1) (at 77.47 142.24 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "" (id 2) (at 82.55 138.43 0)
@@ -5441,10 +5441,10 @@
       (reference "D?") (unit 1) (value "LED_RGBK") (footprint "")
     )
     (path "/30224ecb-a730-47e1-96df-96b1758a1a2f"
-      (reference "F?") (unit 1) (value "PTC ?A") (footprint "")
+      (reference "F?") (unit 1) (value "PTC 1A") (footprint "")
     )
     (path "/cc111127-f001-4494-a46a-df9cfd9d4666"
-      (reference "F?") (unit 1) (value "PTC ?A") (footprint "")
+      (reference "F?") (unit 1) (value "PTC 1A") (footprint "")
     )
     (path "/60060b39-57f0-4f2c-a062-c391396cf2bf"
       (reference "J?") (unit 1) (value "USB_C_Receptacle_USB2.0") (footprint "")
