@@ -240,7 +240,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "GameOverSensor.kicad_pro",
+    "filename": "GameOverBase.kicad_pro",
     "version": 1
   },
   "net_settings": {
