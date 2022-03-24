@@ -4377,7 +4377,7 @@
     (property "Value" "4021" (id 1) (at 167.0559 132.08 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Package_SO:TSSOP-16-1EP_4.4x5mm_P0.65mm" (id 2) (at 165.1 147.32 0)
+    (property "Footprint" "" (id 2) (at 165.1 147.32 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/HEF4021B.pdf" (id 3) (at 165.1 147.32 0)
@@ -5309,7 +5309,7 @@
     (property "Value" "Serial Port" (id 1) (at 50.8 185.42 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (id 2) (at 49.53 179.07 0)
+    (property "Footprint" "Connector:Tag-Connect_TC2030-IDC-FP_2x03_P1.27mm_Vertical" (id 2) (at 49.53 179.07 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 49.53 179.07 0)
@@ -6378,7 +6378,7 @@
       (reference "U1") (unit 1) (value "ESP32-WROOM-E") (footprint "Espressif:ESP32-WROOM-32E")
     )
     (path "/317e242a-fc94-41fd-8e86-30d2c1650759"
-      (reference "U2") (unit 1) (value "4021") (footprint "Package_SO:TSSOP-16-1EP_4.4x5mm_P0.65mm")
+      (reference "U2") (unit 1) (value "4021") (footprint "Package_SO:TSSOP-16_4.4x5mm_P0.65mm")
     )
     (path "/e16932c6-4644-4ca2-b59a-6a89b09e35e0"
       (reference "U3") (unit 1) (value "MCP73831-2ACI-OT") (footprint "Package_TO_SOT_SMD:SOT-23-5")
