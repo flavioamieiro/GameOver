@@ -6369,10 +6369,10 @@
       (reference "SW1") (unit 1) (value "SW_DIP_x08") (footprint "")
     )
     (path "/fbfbda5b-3f1a-4559-9c00-adeb4e1f53ab"
-      (reference "SW2") (unit 1) (value "boot") (footprint "")
+      (reference "SW2") (unit 1) (value "boot") (footprint "GameOver:TXGA_FFC05036-24SBD113W5M_1x24_P0.50mm_Horizontal")
     )
     (path "/127be547-9fbb-4f55-a1d1-e12de114ea72"
-      (reference "SW3") (unit 1) (value "Reset") (footprint "")
+      (reference "SW3") (unit 1) (value "Reset") (footprint "GameOver:TXGA_FFC05036-24SBD113W5M_1x24_P0.50mm_Horizontal")
     )
     (path "/7e6285e9-8fc0-49bf-b49b-a6df46890238"
       (reference "U1") (unit 1) (value "ESP32-WROOM-E") (footprint "Espressif:ESP32-WROOM-32E")
