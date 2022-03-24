@@ -5389,7 +5389,7 @@
     (property "Value" "add-on conn" (id 1) (at 92.71 190.5 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (id 2) (at 100.33 156.21 0)
+    (property "Footprint" "GameOver:TXGA_FFC05036-24SBD113W5M_1x24_P0.50mm_Horizontal" (id 2) (at 100.33 156.21 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 100.33 156.21 0)
@@ -6300,7 +6300,7 @@
       (reference "J2") (unit 1) (value "Serial Port") (footprint "")
     )
     (path "/b96389fd-4b84-4e6a-b451-5d6147af997a"
-      (reference "J3") (unit 1) (value "add-on conn") (footprint "")
+      (reference "J3") (unit 1) (value "add-on conn") (footprint "GameOver:TXGA_FFC05036-24SBD113W5M_1x24_P0.50mm_Horizontal")
     )
     (path "/7812657a-77a5-4738-bb49-ebee91b9814f"
       (reference "Q1") (unit 1) (value "PMN48XP") (footprint "Package_SO:TSOP-6_1.65x3.05mm_P0.95mm")
