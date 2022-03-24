@@ -4154,7 +4154,7 @@
     (property "Value" "Reset" (id 1) (at 217.17 146.05 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (id 2) (at 224.79 146.05 0)
+    (property "Footprint" "GameOver:SW_Tactile_SPST_SOFNG_TS-1814" (id 2) (at 224.79 146.05 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 224.79 146.05 0)
@@ -5990,7 +5990,7 @@
     (property "Value" "boot" (id 1) (at 199.39 146.05 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (id 2) (at 207.01 146.05 0)
+    (property "Footprint" "GameOver:SW_Tactile_SPST_SOFNG_TS-1814" (id 2) (at 207.01 146.05 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 207.01 146.05 0)
@@ -6297,7 +6297,7 @@
       (reference "J1") (unit 1) (value "USB_C_Receptacle_USB2.0") (footprint "GameOver:DEALON_USB-US31-106")
     )
     (path "/a4a4a9b2-b00e-4de8-947c-82cb95b02a26"
-      (reference "J2") (unit 1) (value "Serial Port") (footprint "")
+      (reference "J2") (unit 1) (value "Serial Port") (footprint "Connector:Tag-Connect_TC2030-IDC-FP_2x03_P1.27mm_Vertical")
     )
     (path "/b96389fd-4b84-4e6a-b451-5d6147af997a"
       (reference "J3") (unit 1) (value "add-on conn") (footprint "GameOver:TXGA_FFC05036-24SBD113W5M_1x24_P0.50mm_Horizontal")
