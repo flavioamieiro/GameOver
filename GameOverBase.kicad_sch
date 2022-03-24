@@ -5987,7 +5987,7 @@
     (property "Reference" "SW2" (id 0) (at 207.01 146.05 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "Reset" (id 1) (at 199.39 146.05 0)
+    (property "Value" "boot" (id 1) (at 199.39 146.05 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "" (id 2) (at 207.01 146.05 0)
@@ -6369,7 +6369,7 @@
       (reference "SW1") (unit 1) (value "SW_DIP_x08") (footprint "")
     )
     (path "/fbfbda5b-3f1a-4559-9c00-adeb4e1f53ab"
-      (reference "SW2") (unit 1) (value "Reset") (footprint "")
+      (reference "SW2") (unit 1) (value "boot") (footprint "")
     )
     (path "/127be547-9fbb-4f55-a1d1-e12de114ea72"
       (reference "SW3") (unit 1) (value "Reset") (footprint "")
