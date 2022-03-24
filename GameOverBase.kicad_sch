@@ -4154,7 +4154,7 @@
     (property "Value" "Reset" (id 1) (at 217.17 146.05 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (id 2) (at 224.79 146.05 0)
+    (property "Footprint" "GameOver:TXGA_FFC05036-24SBD113W5M_1x24_P0.50mm_Horizontal" (id 2) (at 224.79 146.05 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 224.79 146.05 0)
@@ -5990,7 +5990,7 @@
     (property "Value" "boot" (id 1) (at 199.39 146.05 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (id 2) (at 207.01 146.05 0)
+    (property "Footprint" "GameOver:TXGA_FFC05036-24SBD113W5M_1x24_P0.50mm_Horizontal" (id 2) (at 207.01 146.05 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 207.01 146.05 0)
@@ -6366,7 +6366,7 @@
       (reference "R20") (unit 1) (value "1kΩ") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
     )
     (path "/407d0ffb-4748-48d0-84ea-57fc2a5b2510"
-      (reference "SW1") (unit 1) (value "SW_DIP_x08") (footprint "")
+      (reference "SW1") (unit 1) (value "SW_DIP_x08") (footprint "GameOver:DIP-16_CTS_219-8LPST")
     )
     (path "/fbfbda5b-3f1a-4559-9c00-adeb4e1f53ab"
       (reference "SW2") (unit 1) (value "boot") (footprint "GameOver:TXGA_FFC05036-24SBD113W5M_1x24_P0.50mm_Horizontal")
