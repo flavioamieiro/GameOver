@@ -4658,7 +4658,7 @@
     (property "Value" "~" (id 1) (at 279.4 142.24 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (id 2) (at 276.86 142.24 0)
+    (property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad" (id 2) (at 276.86 142.24 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 276.86 142.24 0)
@@ -5095,7 +5095,7 @@
     (property "Value" "~" (id 1) (at 269.24 142.24 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (id 2) (at 266.7 142.24 0)
+    (property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad" (id 2) (at 266.7 142.24 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 266.7 142.24 0)
@@ -6577,10 +6577,10 @@
       (reference "J3") (unit 1) (value "add-on conn") (footprint "GameOver:TXGA_FFC05036-24SBD113W5M_1x24_P0.50mm_Horizontal")
     )
     (path "/153b872c-6c65-47b8-a7a9-c495d607d48b"
-      (reference "JP1") (unit 1) (value "~") (footprint "")
+      (reference "JP1") (unit 1) (value "~") (footprint "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm")
     )
     (path "/c3e79e6e-1418-4802-9ff4-ff4989c54127"
-      (reference "JP2") (unit 1) (value "~") (footprint "")
+      (reference "JP2") (unit 1) (value "~") (footprint "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm")
     )
     (path "/7812657a-77a5-4738-bb49-ebee91b9814f"
       (reference "Q1") (unit 1) (value "PMN48XP") (footprint "Package_SO:TSOP-6_1.65x3.05mm_P0.95mm")
