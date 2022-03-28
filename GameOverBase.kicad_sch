@@ -4588,7 +4588,7 @@
     (property "Value" "~" (id 1) (at 279.4 142.24 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad" (id 2) (at 276.86 142.24 0)
+    (property "Footprint" "" (id 2) (at 276.86 142.24 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 276.86 142.24 0)
@@ -4991,7 +4991,7 @@
     (property "Value" "~" (id 1) (at 269.24 142.24 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad" (id 2) (at 266.7 142.24 0)
+    (property "Footprint" "" (id 2) (at 266.7 142.24 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 266.7 142.24 0)
@@ -6482,10 +6482,10 @@
       (reference "F2") (unit 1) (value "PTC 1A") (footprint "GameOver:Belfuse_0ZCJ")
     )
     (path "/72b8070d-6360-4ae2-9e52-c57614a73147"
-      (reference "H1") (unit 1) (value "~") (footprint "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad")
+      (reference "H1") (unit 1) (value "~") (footprint "MountingHole:MountingHole_2.2mm_M2_Pad_Via")
     )
     (path "/33ba6f87-8078-4806-af25-74c46ae2d6bf"
-      (reference "H2") (unit 1) (value "~") (footprint "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad")
+      (reference "H2") (unit 1) (value "~") (footprint "MountingHole:MountingHole_2.2mm_M2_Pad_Via")
     )
     (path "/c62df308-9d46-4880-b5c7-5b78f375875b"
       (reference "J1") (unit 1) (value "USB_C_DEALON-USB-US31-106") (footprint "GameOver:DEALON_USB-US31-106")
