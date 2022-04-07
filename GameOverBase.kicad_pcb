@@ -2284,6 +2284,11 @@
         dc589470-c992-4486-b3f0-1b3bb44f75dd
       )
     )
+    (model "${KIPRJMOD}/3D-models/RGB_LED.step"
+      (offset (xyz 0 0.25 0.5))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" (layer "F.Cu")
