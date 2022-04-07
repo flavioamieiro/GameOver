@@ -1206,6 +1206,11 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
+    (model "${KIPRJMOD}/3D-models/jst_2_adafruit_1769.wrl"
+      (offset (xyz -80 -49.5 0))
+      (scale (xyz 0.4 0.4 0.4))
+      (rotate (xyz 0 0 90))
+    )
   )
 
   (footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" (layer "F.Cu")
@@ -9640,28 +9645,6 @@
         (xy 168.489843 81.150948)
         (xy 168.552155 81.116922)
       )
-    )
-  )
-  (group "" (id 02ad5737-a7ad-458d-8ad3-5476d8afc17b)
-    (members
-      1a3c4428-61fe-4c5a-b59a-300e068ea6f6
-      1d75cc3e-4ccd-4ebf-a96e-dfd5e83ceb36
-      1ffd37d6-8439-43ce-b42b-bd5c6366c89b
-      20e7cc65-ba40-4991-b1a1-98a2f305d988
-      2594bc45-7ca6-4d06-a06d-05c44403c6a0
-      3c753f9c-9215-4453-a6b6-bb03a5eae11e
-      48166af8-28cc-457f-a21d-fa04752f2b4b
-      577aca39-152b-470d-827e-739baf8728ee
-      5b505a69-109a-4183-b6df-3903f734adb8
-      648b0fae-0149-4e65-84c8-0b317a8622dc
-      68dd1d19-bede-4ca1-b953-b6cb11beb8f9
-      8395875f-0571-4881-b204-e488744b50d5
-      890eb5b0-a78c-4897-95d5-8ab39c51b077
-      d2a99e30-6049-410e-ab84-ee3905ba7bdf
-      e75af4c5-cbd7-4cc9-abda-4f1aa467b17e
-      ed937673-a81f-4e20-a613-538ff0fe7bbb
-      f11499c3-ea86-4194-b894-9662c111a299
-      fdd59a49-85df-432b-8281-978432e051b8
     )
   )
 )
