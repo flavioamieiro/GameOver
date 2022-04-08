@@ -506,6 +506,11 @@
       (net 2 "GND") (pinfunction "SHIELD") (pintype "passive") (tstamp 2fd6457e-33f0-4621-9679-181a3e163527))
     (pad "S1" thru_hole oval (at 4.32 0.995 270) (size 1 1.7) (drill oval 0.5 1.2) (layers *.Cu *.Mask)
       (net 2 "GND") (pinfunction "SHIELD") (pintype "passive") (tstamp d29e7558-1807-4f34-a4d8-4edc88c14ff2))
+    (model "${KIPRJMOD}/3D-models/USB_C_Receptacle_USB_2_GTC_USB4105.step"
+      (offset (xyz 0 -4 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz -90 0 0))
+    )
   )
 
   (footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" (layer "F.Cu")
