@@ -86,9 +86,11 @@
         "missing_footprint": "warning",
         "net_conflict": "warning",
         "npth_inside_courtyard": "ignore",
+        "overlapping_pads": "error",
         "padstack": "error",
         "pth_inside_courtyard": "ignore",
         "shorting_items": "error",
+        "silk_edge_clearance": "warning",
         "silk_over_copper": "warning",
         "silk_overlap": "warning",
         "skew_out_of_range": "error",
@@ -171,6 +173,7 @@
       ],
       "track_widths": [
         0.0,
+        0.15,
         0.2,
         0.25,
         0.5
