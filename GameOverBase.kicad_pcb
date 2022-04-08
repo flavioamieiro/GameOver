@@ -780,7 +780,7 @@
     (pad "39" smd rect locked (at 0.845 1.855 180) (size 1.05 1.05) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 2 "GND") (pinfunction "GND_THERMAL") (pintype "power_in") (tstamp 72e96c59-4811-4f87-8e4e-1038c59a82a8))
     (model "${ESPRESSIF_3DMODELS}/ESP32-WROOM-32E.STEP"
-      (offset (xyz -9.01 -9.6 0))
+      (offset (xyz -9.01 -11 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
