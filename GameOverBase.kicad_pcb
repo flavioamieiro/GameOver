@@ -3650,6 +3650,9 @@
   (gr_text "-" (at 137.3 90.5) (layer "B.SilkS") (tstamp d568a25b-16eb-4ee8-8b96-ebb504e5256a)
     (effects (font (size 1 1) (thickness 0.25) bold) (justify mirror))
   )
+  (gr_text "JLCJLCJLCJLC" (at 154 96.6 90) (layer "F.SilkS") (tstamp 9c5692d1-9163-44c9-877f-aaea3b11b4f6)
+    (effects (font (size 1.5 1.5) (thickness 0.3) bold) (justify mirror))
+  )
 
   (segment (start 133.75 92.95) (end 133.75 89.5) (width 0.5) (layer "B.Cu") (net 1) (tstamp 8d14917f-e539-48bb-b0a0-3cde6d5397e9))
   (segment (start 163.15 97.46) (end 163.95 97.46) (width 0.25) (layer "F.Cu") (net 2) (tstamp 037e1a83-fa07-4d9f-a30f-4f4e54508783))
