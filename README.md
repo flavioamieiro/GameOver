@@ -1,4 +1,7 @@
-This is the base PCB for the add-ons to be developed for Game Over
+Hardware for Game Over project
+
+[BaseBoard](BaseBoard/) describes the main board, which has an ESP32 and will
+be the base for the add-ons.
 
 
 This source describes Open Hardware and is licensed under the CERN-OHL-S v2.
