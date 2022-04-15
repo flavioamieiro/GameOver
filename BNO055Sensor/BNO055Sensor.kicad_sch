@@ -1352,7 +1352,7 @@
       (reference "#PWR0105") (unit 1) (value "+3V3") (footprint "")
     )
     (path "/8e1de14e-ffef-41a5-93e5-703a7302bc9f"
-      (reference "D1") (unit 1) (value "LED_RGBA") (footprint "")
+      (reference "D1") (unit 1) (value "LED_RGBA") (footprint "GameOver:Hongzhi_Forest_HS-1204-RGB")
     )
     (path "/72b8070d-6360-4ae2-9e52-c57614a73147"
       (reference "H1") (unit 1) (value "~") (footprint "MountingHole:MountingHole_2.2mm_M2_Pad_Via")
@@ -1364,13 +1364,13 @@
       (reference "J1") (unit 1) (value "addon_conn") (footprint "GameOver:TXGA_FFC05036-24SBD113W5M_1x24_P0.50mm_Horizontal")
     )
     (path "/df729cdb-2037-48dc-ae33-70081f93ee69"
-      (reference "R1") (unit 1) (value "1kΩ") (footprint "")
+      (reference "R1") (unit 1) (value "1kΩ") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
     )
     (path "/714ed8ba-61ed-4362-bd7a-70a8dca07984"
-      (reference "R2") (unit 1) (value "1kΩ") (footprint "")
+      (reference "R2") (unit 1) (value "1kΩ") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
     )
     (path "/231ff0c9-3fc3-43df-915e-0f8070070eb8"
-      (reference "R3") (unit 1) (value "1kΩ") (footprint "")
+      (reference "R3") (unit 1) (value "1kΩ") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
     )
     (path "/a9369305-45f6-4583-af09-8897bb64b91f"
       (reference "U1") (unit 1) (value "Adafruit_BNO055_breakout") (footprint "GameOver:Adafruit_BNO055_breakout")
