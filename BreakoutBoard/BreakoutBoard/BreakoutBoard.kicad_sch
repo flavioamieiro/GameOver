@@ -1409,25 +1409,25 @@
       (reference "#PWR015") (unit 1) (value "GND") (footprint "")
     )
     (path "/9c8dd6e5-227d-42fe-b0d8-979d4f25aaa2"
-      (reference "H1") (unit 1) (value "~") (footprint "")
+      (reference "H1") (unit 1) (value "~") (footprint "MountingHole:MountingHole_2.2mm_M2_Pad_Via")
     )
     (path "/239f5f69-032f-46f0-9d61-ca8a943cc10a"
-      (reference "H2") (unit 1) (value "~") (footprint "")
+      (reference "H2") (unit 1) (value "~") (footprint "MountingHole:MountingHole_2.2mm_M2_Pad_Via")
     )
     (path "/53c4401f-d4b1-47e2-aa52-ad488e1ad521"
       (reference "J1") (unit 1) (value "addon_conn") (footprint "GameOver:TXGA_FFC05036-24SBD113W5M_1x24_P0.50mm_Horizontal")
     )
     (path "/128318a8-e665-4282-b45a-76896661e5ae"
-      (reference "J2") (unit 1) (value "Power") (footprint "")
+      (reference "J2") (unit 1) (value "Power") (footprint "Connector_PinHeader_2.54mm:PinHeader_2x02_P2.54mm_Vertical")
     )
     (path "/3a031ebf-0961-460e-9184-2e2013fd546a"
-      (reference "J3") (unit 1) (value "Power") (footprint "")
+      (reference "J3") (unit 1) (value "Power") (footprint "Connector_PinHeader_2.54mm:PinHeader_2x02_P2.54mm_Vertical")
     )
     (path "/a236fb38-1f0a-4056-8998-7b17099f24e4"
-      (reference "J4") (unit 1) (value "Conn_01x09") (footprint "")
+      (reference "J4") (unit 1) (value "Conn_01x09") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x09_P2.54mm_Vertical")
     )
     (path "/e317ae8e-030b-4844-99d9-7ee04b39439a"
-      (reference "J5") (unit 1) (value "Conn_01x10") (footprint "")
+      (reference "J5") (unit 1) (value "Conn_01x10") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x10_P2.54mm_Vertical")
     )
   )
 )
