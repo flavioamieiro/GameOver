@@ -6,7 +6,7 @@
     (property "Value" "Adafruit_BNO055_breakout" (id 1) (at 13.97 -10.16 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (id 2) (at 0 0 0)
+    (property "Footprint" "GameOver:Adafruit_BNO055_breakout" (id 2) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://learn.adafruit.com/adafruit-bno055-absolute-orientation-sensor/pinouts" (id 3) (at 0 0 0)
