@@ -88,9 +88,9 @@
       (subtractmaskfromsilk false)
       (outputformat 1)
       (mirror false)
-      (drillshape 1)
+      (drillshape 0)
       (scaleselection 1)
-      (outputdirectory "")
+      (outputdirectory "Gerber/")
     )
   )
 
@@ -160,9 +160,9 @@
       (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp d08dab35-8813-47b4-9ae3-35721f75d63e))
     (fp_line (start 1 0.625) (end -1 0.625)
       (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp b6b22427-47f1-4fa6-af2e-18626d758dc6))
-    (pad "1" smd roundrect (at -1 0 90) (size 1.2 1.4) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.208333)
+    (pad "1" smd roundrect (at -1 0 90) (size 1.2 1.4) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.2083333333)
       (net 19 "LED_G") (pintype "passive") (tstamp e7cf1c91-49a1-4922-9458-af237570fc46))
-    (pad "2" smd roundrect (at 1 0 90) (size 1.2 1.4) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.208333)
+    (pad "2" smd roundrect (at 1 0 90) (size 1.2 1.4) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.2083333333)
       (net 3 "Net-(D1-GK)") (pintype "passive") (tstamp d52e5a11-fc5f-4e4e-989c-948b643150ba))
     (model "${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0805_2012Metric.wrl"
       (offset (xyz 0 0 0))
@@ -752,9 +752,9 @@
       (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp 65c9842e-a846-4e36-9ec9-76799c0cdf06))
     (fp_line (start 1 0.625) (end -1 0.625)
       (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp ff2443c6-822a-4c0b-a513-16e466cf7670))
-    (pad "1" smd roundrect (at -1 0 90) (size 1.2 1.4) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.208333)
+    (pad "1" smd roundrect (at -1 0 90) (size 1.2 1.4) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.2083333333)
       (net 20 "LED_R") (pintype "passive") (tstamp e2a982b1-d302-410b-9d67-14f9136c471e))
-    (pad "2" smd roundrect (at 1 0 90) (size 1.2 1.4) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.208333)
+    (pad "2" smd roundrect (at 1 0 90) (size 1.2 1.4) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.2083333333)
       (net 2 "Net-(D1-RK)") (pintype "passive") (tstamp d6b7ea87-95e3-4637-a805-46d98631d1d3))
     (model "${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0805_2012Metric.wrl"
       (offset (xyz 0 0 0))
@@ -1060,9 +1060,9 @@
       (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp c30ae62b-9a10-445c-bc69-f59bc6a63220))
     (fp_line (start 1 0.625) (end -1 0.625)
       (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp 98ea8ecb-56b6-49bf-8750-4ea05d5c2b77))
-    (pad "1" smd roundrect (at -1 0 90) (size 1.2 1.4) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.208333)
+    (pad "1" smd roundrect (at -1 0 90) (size 1.2 1.4) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.2083333333)
       (net 18 "LED_B") (pintype "passive") (tstamp 4359e46a-5144-4e27-9763-5d28bbb64cb1))
-    (pad "2" smd roundrect (at 1 0 90) (size 1.2 1.4) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.208333)
+    (pad "2" smd roundrect (at 1 0 90) (size 1.2 1.4) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.2083333333)
       (net 4 "Net-(D1-BK)") (pintype "passive") (tstamp 5a27957b-f7a1-4c77-8ee5-35fdbd7fdcd5))
     (model "${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0805_2012Metric.wrl"
       (offset (xyz 0 0 0))
@@ -1078,11 +1078,11 @@
     (tags "kb_params=eyJBbGlnbm1lbnRDaG9pY2UiOiAiQ2VudGVyIiwgIkNhcExlZnRDaG9pY2UiOiAiKCIsICJDYXBSaWdodENob2ljZSI6ICIpIiwgIkZvbnRDb21ib0JveCI6ICJVYnVudHVNb25vLUIiLCAiSGVpZ2h0Q3RybCI6ICIxIiwgIkxheWVyQ29tYm9Cb3giOiAiRi5TaWxrUyIsICJNdWx0aUxpbmVUZXh0IjogIlJldiAwLjEiLCAiUGFkZGluZ0JvdHRvbUN0cmwiOiAiNSIsICJQYWRkaW5nTGVmdEN0cmwiOiAiNSIsICJQYWRkaW5nUmlnaHRDdHJsIjogIjUiLCAiUGFkZGluZ1RvcEN0cmwiOiAiNSIsICJXaWR0aEN0cmwiOiAiIn0=")
     (attr board_only exclude_from_pos_files exclude_from_bom)
     (fp_text reference "kibuzzard-6259E36C" (at 0 3.891492 90) (layer "B.SilkS") hide
-        (effects (font (size 0 0)) (justify mirror))
+        (effects (font (size 0 0) (thickness 0.15)) (justify mirror))
       (tstamp a5548b1e-f046-4cb4-8453-b5df5a737cc5)
     )
     (fp_text value "G***" (at 0 -3.891492 90) (layer "B.SilkS") hide
-        (effects (font (size 0 0)) (justify mirror))
+        (effects (font (size 0 0) (thickness 0.15)) (justify mirror))
       (tstamp b5e05d33-e970-43b6-a289-da56d419de27)
     )
     (fp_poly
@@ -1421,6 +1421,9 @@
     (stroke (width 0.1) (type default)) (layer "Edge.Cuts") (tstamp f1a9019c-eb60-4d64-a16c-243a53732632))
   (gr_arc locked (start 167 80) (mid 169.12132 80.87868) (end 170 83)
     (stroke (width 0.1) (type default)) (layer "Edge.Cuts") (tstamp fd3facc3-5e5d-4f74-bd97-614679bf0971))
+  (gr_text "JLCJLCJLCJLC" (at 145 95) (layer "F.SilkS") (tstamp 4a8bbe37-e6e1-4823-8411-4b25d0831313)
+    (effects (font (size 1 1) (thickness 0.25) bold))
+  )
 
   (segment (start 164.568397 105.96) (end 163.15 105.96) (width 0.25) (layer "F.Cu") (net 1) (tstamp 22a20f49-065b-4309-a87d-6d1fe731dd42))
   (segment (start 164.896184 106.287787) (end 164.568397 105.96) (width 0.25) (layer "F.Cu") (net 1) (tstamp 54598662-48b8-4cc9-879b-837399eba7e2))
