@@ -1,7 +1,16 @@
 Hardware for Game Over project
 
-[BaseBoard](BaseBoard/) describes the main board, which has an ESP32 and will
-be the base for the add-ons.
+[BaseBoard](BaseBoard/) contains the design files for the  main board, which
+has an ESP32 and will be the base for the add-ons.
+
+[BNO055Sensor](BNO055Sensor/) is the first add-on: basically a BNO055 sensor
+from Adafruit used for motion detection
+
+[BreakoutBoard](BreakoutBoard/) is a simple breakout board for easier
+prototyping using the base board.
+
+[AddonTemplate](AddonTemplate/) is a kicad template you can use as a base to
+create new addon boards.
 
 
 This source describes Open Hardware and is licensed under the CERN-OHL-S v2.
