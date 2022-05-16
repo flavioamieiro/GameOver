@@ -312,7 +312,7 @@
     (property "Value" "addon_conn" (id 1) (at 7.62 -25.4 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "GameOver:TXGA_FFC05036-24SBD113W5M_1x24_P0.50mm_Horizontal" (id 2) (at 41.91 24.13 0)
+    (property "Footprint" "GameOver:Addon_conn_TXGA_FFC05036-24SBD113W5M_1x24_P0.50mm_Horizontal" (id 2) (at 41.91 24.13 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (id 3) (at 13.97 8.89 0)
