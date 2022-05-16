@@ -949,7 +949,7 @@
     (property "ki_keywords" "connector")
     (path "/b96389fd-4b84-4e6a-b451-5d6147af997a")
     (attr smd)
-    (fp_text reference "J3" (at 0 -3.7 90) (layer "F.SilkS")
+    (fp_text reference "J3" (at 0 -3.7 90) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp f0156546-5d7b-40c0-a096-3e8468ce8f14)
     )
