@@ -6,7 +6,7 @@
 
   (title_block
     (title "Game Over sensor")
-    (rev "0.1")
+    (rev "0.2")
     (company "Flávio Amieiro")
   )
 
