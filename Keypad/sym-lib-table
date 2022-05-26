@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name "GameOver")(type "KiCad")(uri "${KIPRJMOD}/../GameOver.kicad_sym")(options "")(descr ""))
+)
