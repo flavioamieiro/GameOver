@@ -429,13 +429,13 @@
   (symbol (lib_id "GameOver:GameOver_logo") (at 251.46 144.78 0) (unit 1)
     (in_bom no) (on_board yes) (fields_autoplaced)
     (uuid a720fc4e-11cc-40fc-995d-9cf7d6347fff)
-    (property "Reference" "#LOGO1" (id 0) (at 251.46 139.7 0)
-      (effects (font (size 1.27 1.27)))
+    (property "Reference" "LOGO1" (id 0) (at 259.08 145.415 0)
+      (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "" (id 1) (at 251.46 151.13 0)
+    (property "Value" "GameOver_logo" (id 1) (at 251.46 151.13 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Footprint" "" (id 2) (at 251.46 144.78 0)
+    (property "Footprint" "GameOver:logo_fcu" (id 2) (at 251.46 144.78 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (id 3) (at 251.46 144.78 0)
@@ -507,9 +507,6 @@
   )
 
   (symbol_instances
-    (path "/a720fc4e-11cc-40fc-995d-9cf7d6347fff"
-      (reference "#LOGO1") (unit 1) (value "GameOver_logo") (footprint "GameOver:logo_fcu")
-    )
     (path "/9688e065-eefa-4bd4-b63c-6f941775746e"
       (reference "#PWR01") (unit 1) (value "GND") (footprint "")
     )
@@ -527,6 +524,9 @@
     )
     (path "/b6197b6c-ed83-4343-8eb6-1b3b92c52240"
       (reference "J1") (unit 1) (value "addon_conn") (footprint "GameOver:Addon_conn_TXGA_FFC05036-24SBD113W5M_1x24_P0.50mm_Horizontal")
+    )
+    (path "/a720fc4e-11cc-40fc-995d-9cf7d6347fff"
+      (reference "LOGO1") (unit 1) (value "GameOver_logo") (footprint "GameOver:logo_fcu")
     )
   )
 )
