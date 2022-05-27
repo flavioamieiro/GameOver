@@ -70,7 +70,7 @@
     )
   )
   (symbol "GameOver_logo" (in_bom no) (on_board yes)
-    (property "Reference" "#LOGO?" (id 0) (at 0 5.08 0)
+    (property "Reference" "LOGO?" (id 0) (at 0 5.08 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "GameOver_logo" (id 1) (at 0 -6.35 0)
