@@ -143,7 +143,7 @@
     (property "Value" "SSM6L820R" (id 1) (at 0 -8.89 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (id 2) (at -1.016 0 0)
+    (property "Footprint" "GameOver:TSOP6F" (id 2) (at -1.016 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (id 3) (at -1.016 0 0)
