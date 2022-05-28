@@ -198,7 +198,7 @@
     (property "Footprint" "GameOver:TSOP6F" (id 2) (at -1.016 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (id 3) (at -1.016 0 0)
+    (property "Datasheet" "https://toshiba.semicon-storage.com/info/docget.jsp?did=63678&prodName=SSM6L820R" (id 3) (at -1.016 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_locked" "" (id 4) (at 0 0 0)
