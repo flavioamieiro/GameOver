@@ -4228,6 +4228,8 @@
     )
   )
 
+  (gr_circle (center 123 95.65) (end 122.9 95.65)
+    (stroke (width 0.2) (type default)) (fill none) (layer "B.SilkS") (tstamp 4720f94d-e6bb-41f5-8343-10ce93ce769c))
   (gr_line (start 132.8 94.1) (end 132.4 94.1)
     (stroke (width 0.15) (type default)) (layer "F.SilkS") (tstamp 050ede95-7a32-4372-b305-9db73599ec09))
   (gr_line (start 132 93.5) (end 132.8 93.5)
@@ -4242,7 +4244,7 @@
     (stroke (width 0.15) (type default)) (layer "F.SilkS") (tstamp 63f6a555-305f-417c-a97d-895b80055905))
   (gr_circle (center 129.6 84.3) (end 129.7 84.3)
     (stroke (width 0.2) (type default)) (fill none) (layer "F.SilkS") (tstamp 935a8203-e5dd-4873-899b-5f533b028f7b))
-  (gr_circle (center 125.1 94.5) (end 125.2 94.5)
+  (gr_circle (center 124.75 94.5) (end 124.85 94.5)
     (stroke (width 0.2) (type default)) (fill none) (layer "F.SilkS") (tstamp c82cecb7-8d88-4ba2-9d11-03fc3aeb624e))
   (gr_line (start 132.4 94.6) (end 132.4 94.1)
     (stroke (width 0.15) (type default)) (layer "F.SilkS") (tstamp c87e7481-0eaa-4c8e-8271-cda8ea76c498))
