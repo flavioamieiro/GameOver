@@ -189,7 +189,7 @@
       )
     )
     (symbol "GameOver:GameOver_logo" (in_bom no) (on_board yes)
-      (property "Reference" "#LOGO?" (id 0) (at 0 5.08 0)
+      (property "Reference" "LOGO?" (id 0) (at 0 5.08 0)
         (effects (font (size 1.27 1.27)))
       )
       (property "Value" "GameOver_logo" (id 1) (at 0 -6.35 0)
@@ -506,6 +506,7 @@
       )
     )
   )
+
 
   (junction (at 105.41 107.95) (diameter 0) (color 0 0 0 0)
     (uuid 4efb42df-bc5c-4b3e-88e8-53e151e3a5d3)
@@ -919,7 +920,7 @@
     (property "Value" "GameOver_logo" (id 1) (at 134.62 180.34 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Footprint" "" (id 2) (at 134.62 173.99 0)
+    (property "Footprint" "GameOver:logo_fcu" (id 2) (at 134.62 173.99 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (id 3) (at 134.62 173.99 0)
