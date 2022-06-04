@@ -4,7 +4,10 @@ Hardware for Game Over project
 has an ESP32 and will be the base for the add-ons.
 
 [BNO055Sensor](BNO055Sensor/) is the first add-on: basically a BNO055 sensor
-from Adafruit used for motion detection
+from Adafruit used for motion detection.
+
+[Keypad](Keypad/) is a keypad with six buttons and LEDs to be used as
+an interface.
 
 [BreakoutBoard](BreakoutBoard/) is a simple breakout board for easier
 prototyping using the base board.
