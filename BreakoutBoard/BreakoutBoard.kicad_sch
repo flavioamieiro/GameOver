@@ -354,11 +354,11 @@
           (number "6" (effects (font (size 1.27 1.27))))
         )
         (pin bidirectional line (at 6.35 11.43 180) (length 2.54)
-          (name "IO5" (effects (font (size 1.27 1.27))))
+          (name "IO18" (effects (font (size 1.27 1.27))))
           (number "7" (effects (font (size 1.27 1.27))))
         )
         (pin bidirectional line (at 6.35 8.89 180) (length 2.54)
-          (name "IO18" (effects (font (size 1.27 1.27))))
+          (name "IO5" (effects (font (size 1.27 1.27))))
           (number "8" (effects (font (size 1.27 1.27))))
         )
         (pin bidirectional line (at 6.35 6.35 180) (length 2.54)
@@ -506,7 +506,6 @@
       )
     )
   )
-
 
   (junction (at 105.41 107.95) (diameter 0) (color 0 0 0 0)
     (uuid 4efb42df-bc5c-4b3e-88e8-53e151e3a5d3)
