@@ -464,7 +464,7 @@
     (property "ki_keywords" "r resistor")
     (path "/583d7f25-8b28-4367-8310-f38d022d17e7")
     (attr smd)
-    (fp_text reference "R13" (at 0 -1.65 90) (layer "F.SilkS")
+    (fp_text reference "R13" (at 0 -1.65 90) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp c927b92d-77a5-46c9-a953-1f525b4cb2a6)
     )
@@ -796,7 +796,7 @@
     (property "ki_keywords" "LED diode")
     (path "/e1c897ed-1f58-4e50-aba7-fad5d523491d")
     (attr smd)
-    (fp_text reference "D5" (at 0 -1.43 90) (layer "F.SilkS")
+    (fp_text reference "D5" (at 0 -1.43 90) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp be77c580-e9bc-4e43-8d70-485286bbfecb)
     )
@@ -1494,7 +1494,7 @@
     (property "ki_keywords" "LED diode")
     (path "/03de9f38-31f8-4c30-b127-aa667c357da7")
     (attr smd)
-    (fp_text reference "D4" (at 0 -1.43 90) (layer "F.SilkS")
+    (fp_text reference "D4" (at 0 -1.43 90) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp ffb82de8-437e-4980-9cb3-b0fbdf6a57a5)
     )
