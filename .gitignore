@@ -1,5 +1,6 @@
 Gerber/
 bom/
+enclosure/*.stl
 fp-info-cache
 fp-lib-table
 .svg2shenzhen-cache
