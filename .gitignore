@@ -1,6 +1,6 @@
 Gerber/
 bom/
-enclosure/*.stl
+Enclosure/*.stl
 fp-info-cache
 fp-lib-table
 .svg2shenzhen-cache

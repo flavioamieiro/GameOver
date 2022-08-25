@@ -1,10 +1,15 @@
 $fn=100;
 
 CUTOUT_FOR_DEBUGGING = false;
+LID_HAS_SCREW = false;
 
 inner_width = 50;
 inner_depth = 35;
 inner_height = 17;
+
+lid_overhang = 5;
+vertical_lid_wall_height = 1.5;
+vertical_lid_wall_thickness = 1;
 
 rounded_corner_radius = 3;
 
@@ -46,6 +51,8 @@ usb_length = 13;
 usb_z_padding = 1.5;
 usb_center_from_pcb_bottom_edge = 24.65;
 
+
+ffc_connector_from_right_edge = 5.5;
 
 
 // Calculated variables
