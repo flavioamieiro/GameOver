@@ -1,12 +1,15 @@
 include <common.scad>
 
-CUTOUT_FOR_DEBUGGING = true;
 LID_HAS_SCREW = false;
 LID_HAS_LOGO = false;
 
 
+lid_overhang = 5;
+vertical_lid_wall_height = 1.5;
+vertical_lid_wall_thickness = 1;
+
 lid_outer_size = [outer_size.x, outer_size.y, wall_thickness*2];
-lid_cutout_size = inner_size - [7, 12, 5];
+
 
 
 module screw_hole() {
@@ -20,8 +23,8 @@ module screw_hole() {
 
 
 module main_body() {
-	opening_length = ((wall_to_pcb_spacing+pcb_lip)*2) + right_side_padding + ffc_connector_from_right_edge;
-	opening_size = inner_size - [opening_length, (wall_to_pcb_spacing+pcb_lip)*2, -100];
+	opening_right_backoff = ((wall_to_pcb_spacing+wall_thickness)*2) + right_side_padding + ffc_connector_from_right_pcb_edge;
+	opening_size = inner_size - [opening_right_backoff, lid_overhang, -100];
 	translate([0, 0, vertical_lid_wall_height]) union() {
 		difference() {
 			rounded_box(lid_outer_size, radius=rounded_corner_radius);
@@ -34,7 +37,6 @@ module main_body() {
 module vertical_walls() {
 	out_size = lid_outer_size - [2*wall_thickness, 2*wall_thickness, -vertical_lid_wall_height];
 	in_size = out_size - [2*vertical_lid_wall_thickness, 2*vertical_lid_wall_thickness, 0];
-
 	translate([wall_thickness, wall_thickness, 0]) {
 		difference() {
 			rounded_box(out_size, radius=rounded_corner_radius);
@@ -45,12 +47,8 @@ module vertical_walls() {
 
 
 module screw_opening() {
-	right_x = wall_thickness + wall_to_pcb_spacing + pcb_length - screw_center_from_pcb_edge;
-	top_y = wall_thickness + wall_to_pcb_spacing + pcb_heigth - screw_center_from_pcb_edge;
-
 	z = vertical_lid_wall_height;
-
-	translate([right_x, top_y, z]) screw_hole();
+	translate([right_screw_pos.x, right_screw_pos.y, z]) screw_hole();
 }
 
 
