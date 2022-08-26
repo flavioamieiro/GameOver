@@ -53,7 +53,7 @@ module screw_opening() {
 
 
 module logo() {
-	translate([lid_outer_size.x, lid_outer_size.y-35, lid_outer_size.z]) rotate([0, 0, 90]) scale([0.1, 0.1, 1]) linear_extrude(height=lid_outer_size.z/2) import("logo.svg");
+	translate([lid_outer_size.x, lid_outer_size.y-inner_size.y, lid_outer_size.z]) rotate([0, 0, 90]) scale([0.1, 0.1, 1]) linear_extrude(height=lid_outer_size.z/2) import("logo.svg");
 }
 
 
