@@ -1,5 +1,7 @@
 include <common.scad>
 
+BOX_HAS_LOGO = true;
+
 pcb_spacer_height = 5;
 pcb_spacer_diameter = 6;
 usb_support_offset = 5;
@@ -81,11 +83,18 @@ module usb_port_access() {
 	}
 }
 
+module logo() {
+	translate([outer_size.x-(wall_thickness/2), outer_size.y-(inner_size.y-wall_thickness), 0]) rotate([90, 0, 90]) scale([0.1, 0.1, 1]) linear_extrude(height=wall_thickness/2) import("logo.svg");
+}
+
 difference() {
 	main_box();
 	strap_cutout();
 	button_accesses();
 	led_window();
 	usb_port_access();
+	if (BOX_HAS_LOGO) {
+		logo();
+	}
 }
 pcb_spacers();
